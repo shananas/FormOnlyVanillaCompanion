@@ -1,0 +1,34 @@
+title: Form Only Vanilla Companion
+original Author: Shananas
+description: Allows any of my Form Only mods to work on a vanilla game. Place above the from only mod you are using.
+assets:
+#STT RC thing
+- name: 03system.bin
+  method: binarc  
+  source:
+  - method: listpatch
+    name: cmd
+    source:
+    - name: CmdList.yml
+      type: cmd
+    type: list
+#Form Starting Weapons
+- name: 00common.bdx
+  method: bdscript
+  source:
+  - name: 00common.bdscript
+#Dog
+- method: binarc
+  name: ard/us/tt12.ard
+  multi:
+  - name: ard/fr/tt12.ard
+  - name: ard/gr/tt12.ard
+  - name: ard/it/tt12.ard
+  - name: ard/sp/tt12.ard
+  - name: ard/tt12.ard
+  source:
+  - method: spawnpoint
+    name: b_40
+    source:
+    - name: b_40.yml
+    type: AreaDataSpawn
