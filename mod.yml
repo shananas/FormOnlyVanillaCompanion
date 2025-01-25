@@ -17,6 +17,16 @@ assets:
   method: bdscript
   source:
   - name: 00common.bdscript
+#Roxas Final Form Bonus
+- name: 00battle.bin
+  method: binarc  
+  source:
+  - method: listpatch
+    name: bons
+    source:
+    - name: BonsList.yml
+      type: bons
+    type: list
 #Dog
 - method: binarc
   name: ard/us/tt12.ard
