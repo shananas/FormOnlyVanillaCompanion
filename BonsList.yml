@@ -9,5 +9,17 @@
     AccessorySlotUpgrade: 0
     ArmorSlotUpgrade: 0
     BonusItem1: 539
-    BonusItem2: 29
+    BonusItem2: 0
+    Padding: 0
+  Roxas:
+    RewardId: 69
+    CharacterId: 14
+    HpIncrease: 0
+    MpIncrease: 0
+    DriveGaugeUpgrade: 0
+    ItemSlotUpgrade: 0
+    AccessorySlotUpgrade: 0
+    ArmorSlotUpgrade: 0
+    BonusItem1: 29
+    BonusItem2: 0
     Padding: 0
