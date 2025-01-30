@@ -187,7 +187,7 @@ L193:
  pushImm 501 ;give Alpha Weapon to Master Form
  syscall 0, 76 ; trap_saveram_set_form_weapon (2 in, 0 out)
  pushImm 5
- pushImm 384 ;give Omega Weapon to Final Form
+ pushImm 501 ;give Omega Weapon to Final Form
  syscall 0, 76 ; trap_saveram_set_form_weapon (2 in, 0 out)
  pushImm 6
  pushImm 71
