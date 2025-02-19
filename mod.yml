@@ -27,6 +27,26 @@ assets:
     - name: BonsList.yml
       type: bons
     type: list
+#Force StruggleBat
+- method: binarc
+  name: ard/us/tt04.ard
+  multi:
+  - name: ard/fr/tt04.ard
+  - name: ard/gr/tt04.ard
+  - name: ard/it/tt04.ard
+  - name: ard/sp/tt04.ard
+  - name: ard/tt04.ard
+  source:
+  - method: spawnpoint
+    name: 900y
+    source:
+    - name: tt04.ard/900y.yml
+    type: AreaDataSpawn
+  - method: copy
+    name: tt04
+    source:
+    - name: tt04.ard/tt04_0.bdx
+    type: Bdx
 #Dog
 - method: binarc
   name: ard/us/tt12.ard
@@ -40,5 +60,5 @@ assets:
   - method: spawnpoint
     name: b_40
     source:
-    - name: b_40.yml
+    - name: tt12.ard/b_40.yml
     type: AreaDataSpawn
